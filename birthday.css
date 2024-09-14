@@ -1,0 +1,67 @@
+@font-face {
+    font-family: HappyMonkey ;
+    src: url("HappyMonkey-Regular.ttf");
+}
+
+body{
+    text-align:center;
+    font-family: HappyMonkey;
+    background: rgb(152, 195, 235);
+    color:white;
+    
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid pink;
+    margin-bottom: 20px;
+}
+h1,h2,h3,h4,p{
+    text-shadow:0px 0px 5px black;
+}
+.h2{
+    padding: 5px 10px;
+    border-radius:5px;
+    background:pink;
+    margin:7px;
+}
+.div2{
+    margin-top:60px;
+}
+.div3{
+    display:block;
+    width: 400px;
+    margin:0px auto;
+    height: 400px;
+    border: 10px solid white;
+    border-radius:10px;
+    margin-top:30px;
+    background-image:url("downloaded.jfif");
+    background-size:cover;
+}
+
+#id1:hover{
+    background-image:url("200.webp");
+    background-size:cover;
+}
+#id2:hover{
+    background-image:url("200 (1).webp");
+    background-size:cover;
+}
+#id3:hover{
+    background-image:url("200w.webp");
+    background-size:cover;
+}
+#div{
+    height:200px;
+}
+#id4:hover{
+    background-image:url("200w (1).webp");
+    background-size:cover;
+}
